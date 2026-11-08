@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio: Video en HTML</title>
+</head>
+<body>
+
+  <!-- Encabezado de la página -->
+  <header>
+    <h1>Ejercicio: Video</h1>
+    <p>Ejercicio de agregar un video en HTML</p>
+  </header>
+
+  <main>
+
+    <!-- Sección 1: Video desde Internet -->
+    <section>
+      <h2>Video desde una URL de Youtube</h2>
+      <iframe width="960" height="540"
+      src="https://www.youtube.com/embed/t6yrxjE7HSM" 
+      title="Video de Youtube"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+         </iframe>
+    </section>
+
+    <!-- Sección 2: Video desde Carpeta Local -->
+    <section>
+      <h2>Video desde una carpeta</h2>
+      <video width="960" height="540" controls>
+        <source src="Video/Video_1.mp4" type="video/mp4">
+        Tu navegador no soporta el formato de video.
+      </video>
+    </section>
+
+  </main>
+
+  <p> </p>
+  <p> </p>
+
+  <li><a href="../index.html">Regresar al menu</a></li>
+
+</body>
+</html>

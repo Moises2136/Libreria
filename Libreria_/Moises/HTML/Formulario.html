@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio: Formulario en HTML</title>
+</head>
+<body>
+
+  <!-- Encabezado de la página -->
+  <header>
+    <h1>Ejercicio: Formulario</h1>
+    <p>Ejercicio de agregar un formulario en HTML</p>
+  </header>
+
+  <main>
+
+    <!-- Sección 1: Formulario -->
+    <section>
+
+        <form action="#" method="POST">
+
+        <p> Formulario de registro </p>
+
+        <!-- Campo para el Nombre -->
+        <div>
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Ingrese Nombre">
+        </div>
+        <br>
+
+        <!-- Campo para el Correo -->
+        <div>
+          <label for="correo">Correo:</label>
+          <input type="text" id="correo" name="correo" required placeholder="Ingrese Correo">
+        </div>
+        <br>
+
+        <!-- Campo para la Contraseña -->
+        <div>
+          <label for="contraseña">Contraseña:</label>
+          <input type="text" id="contraseña" name="contraseña" required placeholder="Ingrese Contrseña">
+        </div>
+        <br>
+
+        <!-- Menú de seleccion  -->
+          <p> Formulario de Selección </p>
+        <div>
+          <label for="SSentimental">Situación Sentimental</label>
+          <select id="SSentimental" name="SSentimental">
+            <option value="soltero">Soltero/a</option>
+            <option value="casado">Casado/a</option>
+            <option value="Viudo">Viudo/a</option>
+            <option value="Divorciado">Divorciado/a</option>
+          </select>
+        </div>
+        <br>
+
+        <!-- Casilla de verificacion Checkbox -->
+         <p> Formulario de verificación </p>
+        <div>
+          <input type="checkbox" id="terminos" name="terminos" required>
+          <label for="terminos">Acepto los términos y condiciones</label>
+        </div>
+        <br>
+
+        <!-- Respuesta abierta larga -->
+         <p> Formulario de respuesta larga </p>
+        <div>
+          <label for="comentarios"><strong>Respuesta abierta:</strong> ¿Por qué te gusta la programación?</label>
+          <br><br>
+          <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe aquí tu respuesta..."></textarea>
+        </div>
+        <br>
+
+        <!-- Respuesta de radio button -->
+         <p> Formulario de boton </p>
+        <div>
+          <label><strong>Selecciona solo una opción:</strong></label>
+          <p>¿Que idioma hablas?</p>
+          
+          <input type="radio" id="español" name="idioma">
+          <label for="español">Español</label>
+          <br>
+          
+          <input type="radio" id="ingles" name="idioma">
+          <label for="ingles">Ingles</label>
+          <br>
+          
+          <input type="radio" id="frances" name="idioma">
+          <label for="frances">Frances</label>
+        </div>
+        <br>
+
+        <!-- Respuesta de casillas -->
+         <p> Formulario de casillas </p>
+        <div>
+          <label><strong>Selecciona varias opciones:</strong></label>
+          <p>¿Qué lenguajes sabes?</p>
+
+          <input type="checkbox" id="java" name="lenguajes" value="java">
+          <label for="java">Java</label>
+          <br>
+          
+          <input type="checkbox" id="html" name="lenguajes" value="html">
+          <label for="html">HTML y CSS</label>
+          <br>
+          
+          <input type="checkbox" id="js" name="lenguajes" value="javascript">
+          <label for="js">JavaScript</label>
+          <br>
+          
+          <input type="checkbox" id="python" name="lenguajes" value="python">
+          <label for="python">Python</label>
+        </div>
+          
+          <input type="checkbox" id="c" name="lenguajes" value="c">
+          <label for="c">C</label>
+          <br>
+        <br>
+
+
+
+        <!-- Botones de acción -->
+        <div>
+          <button type="enviar">Enviar Registro</button>
+          <button type="limpiar">Limpiar campos</button>
+
+          <p> Los botones no hacen nada jejeje </p>
+        </div>
+
+        </form>
+
+    </section>
+
+
+  </main>
+
+  <p> </p>
+  <p> </p>
+
+  <li><a href="../index.html">Regresar al menu</a></li>
+
+</body>
+</html>

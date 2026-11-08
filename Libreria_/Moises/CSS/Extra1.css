@@ -1,0 +1,22 @@
+#M-oscuro {
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+#M-oscuro.tema-oscuro {
+  background-color: #000000;
+  color: #fff;
+}
+#M-oscuro button {
+  padding: 8px 12px;
+  background: #009999;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

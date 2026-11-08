@@ -1,0 +1,37 @@
+#SumRest {
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+#SumRest input {
+  padding: 6px;
+  margin: 5px;
+  width: 40%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#SumRest button {
+  padding: 8px 15px;
+  margin: 5px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btnSuma { background-color: #27ae60; }
+#btnRestar { background-color: #c0392b; }
+
+#resultado {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #000000;
+}
